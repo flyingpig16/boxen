@@ -21,6 +21,14 @@ def github(name, *args)
   end
 end
 
+def githubsource(name, options=nil)
+  options ||= {}
+  options[:repo] ||= "boxen/puppet-#{name}"
+  mod name, :git => "git://github.com/#{options[:repo]}.git"
+end
+
+
+
 # Shortcut for a module under development
 def dev(name, *args)
   mod name, :path => "#{ENV['HOME']}/src/boxen/puppet-#{name}"
@@ -62,3 +70,32 @@ github "xquartz",     "1.1.1"
 
 
 github "adium", "1.4.0"
+githubsource "apache_directory_studio", :repo => "blackcoffee/puppet-apache_directory_studio"
+github "autoconf", "1.0.0"
+github "chrome", "1.1.2"
+github "csshx", "1.0.0"
+github "dropbox", "1.2.0"
+github "firefox", "1.1.8"
+github "gitx", "1.2.0"
+github "googleearth", "1.0.0"
+github "imagemagick", "1.2.1"
+github "kindle", "1.0.1"
+github "macvim", "1.0.0"
+github "menumeters", "1.0.1", :repo => "Vodeclic/puppet-menumeters"
+github "mongodb", "1.2.1"
+githubsource "mtr", :repo => "hco/puppet-mtr"
+github "osx", "2.2.2"
+github "plex", "1.0.0"
+github "python", "1.3.0"
+github "screen", "1.0.0"
+githubsource "smcfancontrol", :repo => "blackcoffee/puppet-smcfancontrol"
+github "spotify", "1.0.1"
+github "steam", "1.0.1"
+github "sublime_text_2", "1.1.2"
+github "tunnelblick", "1.0.5"
+github "tmux", "1.0.2"
+github "vagrant", "3.0.6"
+github "vim", "1.0.5"
+github "virtualbox", "1.0.11"
+github "vlc", "1.1.0"
+github "zsh", "1.0.0"

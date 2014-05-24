@@ -1,7 +1,38 @@
+GIT
+  remote: git://github.com/blackcoffee/puppet-apache_directory_studio.git
+  ref: master
+  sha: 51acf640a104d2c9285d6a6333dd2afba92fa63a
+  specs:
+    apache_directory_studio (0.0.1)
+
+GIT
+  remote: git://github.com/blackcoffee/puppet-smcfancontrol.git
+  ref: master
+  sha: 6672337d8ee20c0ada04e3a323425c10960f88e5
+  specs:
+    smcfancontrol (0.0.1)
+
+GIT
+  remote: git://github.com/hco/puppet-mtr.git
+  ref: master
+  sha: ad67fd117b9177754224fe7d6e5eb24b0bab4469
+  specs:
+    mtr (0.0.1)
+
+GITHUBTARBALL
+  remote: Vodeclic/puppet-menumeters
+  specs:
+    menumeters (1.0.1)
+
 GITHUBTARBALL
   remote: boxen/puppet-adium
   specs:
     adium (1.4.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-autoconf
+  specs:
+    autoconf (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-boxen
@@ -9,9 +40,29 @@ GITHUBTARBALL
     boxen (3.4.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-chrome
+  specs:
+    chrome (1.1.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-csshx
+  specs:
+    csshx (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-dropbox
+  specs:
+    dropbox (1.2.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-firefox
+  specs:
+    firefox (1.1.8)
 
 GITHUBTARBALL
   remote: boxen/puppet-foreman
@@ -29,9 +80,19 @@ GITHUBTARBALL
     git (2.3.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-gitx
+  specs:
+    gitx (1.2.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-go
   specs:
     go (1.1.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-googleearth
+  specs:
+    googleearth (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
@@ -42,6 +103,26 @@ GITHUBTARBALL
   remote: boxen/puppet-hub
   specs:
     hub (1.3.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-imagemagick
+  specs:
+    imagemagick (1.2.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-kindle
+  specs:
+    kindle (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-macvim
+  specs:
+    macvim (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-mongodb
+  specs:
+    mongodb (1.2.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
@@ -59,6 +140,11 @@ GITHUBTARBALL
     openssl (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-osx
+  specs:
+    osx (2.2.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-phantomjs
   specs:
     phantomjs (2.3.0)
@@ -67,6 +153,16 @@ GITHUBTARBALL
   remote: boxen/puppet-pkgconfig
   specs:
     pkgconfig (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-plex
+  specs:
+    plex (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-python
+  specs:
+    python (1.3.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-repository
@@ -79,14 +175,64 @@ GITHUBTARBALL
     ruby (7.3.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-screen
+  specs:
+    screen (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-steam
+  specs:
+    steam (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-sublime_text_2
+  specs:
+    sublime_text_2 (1.1.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-tmux
+  specs:
+    tmux (1.0.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-tunnelblick
+  specs:
+    tunnelblick (1.0.5)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vagrant
+  specs:
+    vagrant (3.0.6)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vim
+  specs:
+    vim (1.0.5)
+
+GITHUBTARBALL
+  remote: boxen/puppet-virtualbox
+  specs:
+    virtualbox (1.0.11)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vlc
+  specs:
+    vlc (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.1.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-zsh
+  specs:
+    zsh (1.0.0)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -105,24 +251,52 @@ GITHUBTARBALL
 
 DEPENDENCIES
   adium (= 1.4.0)
+  apache_directory_studio (>= 0)
+  autoconf (= 1.0.0)
   boxen (= 3.4.2)
+  chrome (= 1.1.2)
+  csshx (= 1.0.0)
   dnsmasq (= 1.0.1)
+  dropbox (= 1.2.0)
+  firefox (= 1.1.8)
   foreman (= 1.2.0)
   gcc (= 2.0.100)
   git (= 2.3.1)
+  gitx (= 1.2.0)
   go (= 1.1.0)
+  googleearth (= 1.0.0)
   homebrew (= 1.9.2)
   hub (= 1.3.0)
+  imagemagick (= 1.2.1)
   inifile (= 1.0.3)
+  kindle (= 1.0.1)
+  macvim (= 1.0.0)
+  menumeters (= 1.0.1)
   module-data (= 0.0.3)
+  mongodb (= 1.2.1)
+  mtr (>= 0)
   nginx (= 1.4.3)
   nodejs (= 3.7.0)
   openssl (= 1.0.0)
+  osx (= 2.2.2)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
+  plex (= 1.0.0)
+  python (= 1.3.0)
   repository (= 2.3.0)
   ruby (= 7.3.0)
+  screen (= 1.0.0)
+  smcfancontrol (>= 0)
   stdlib (= 4.1.0)
+  steam (= 1.0.1)
+  sublime_text_2 (= 1.1.2)
   sudo (= 1.0.0)
+  tmux (= 1.0.2)
+  tunnelblick (= 1.0.5)
+  vagrant (= 3.0.6)
+  vim (= 1.0.5)
+  virtualbox (= 1.0.11)
+  vlc (= 1.1.0)
   xquartz (= 1.1.1)
+  zsh (= 1.0.0)
 
